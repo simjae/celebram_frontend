@@ -9,11 +9,14 @@
 
 <br>
 
-#### 협업
-    혼자 프로젝트 진행시에는 npm init 으로 package.json을 만들순있지만 패키지가 없는 초기 상태입니다.
-    git ropo에는  노드 모듈을 올리지 않기!!
-    그러므로 협업시 clone 받을 경우 npm install 명령을 통해 package.json에서 관리중인 패키지가 자동으로 설치가 완료된다.
-    실제 패키지가 설치되면 package.json으로 관리 할 수 있다.
+#### 🛠 협업
+    1. main branch를 clone 해주세요
+     
+    2. 혼자 프로젝트 진행시에는 npm init 으로 package.json을 만들순있지만 패키지가 없는 초기 상태입니다.
+       - 협업시 clone 받을 경우 npm install 명령을 통해 package.json에서 관리중인 패키지가 자동으로 설치가 완료된다.
+       - 실제 패키지가 설치되면 package.json으로 관리 할 수 있다.
+
+    3. push시에는 .gitignore파일을 통해서 노드 모듈을 올리지 않기!!
 
 <br>
 
